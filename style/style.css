@@ -13,3 +13,8 @@ header .header-top {
 header .header-top img {
     width: 100px;
 }
+
+section.jumbotron .jumbo {
+    background-color: blue;
+    height: 500px;
+}
