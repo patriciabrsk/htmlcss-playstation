@@ -46,3 +46,13 @@ section.ps-5 .console-wrapper img {
 section.ps-5 .ps-cards img {
     width: 100%;
 }
+
+/* Nuove uscite section */
+section#nuove-uscite {
+    background-color: #1f1f1f;
+
+}
+
+section#nuove-uscite .card-item img {
+    width: 100%;
+}
