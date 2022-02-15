@@ -1,0 +1,15 @@
+header {
+    font-family: Helvetica, sans-serif;
+}
+
+main {
+    font-family: Arial, sans-serif;
+}
+
+header .header-top {
+    background-color: black;
+}
+
+header .header-top img {
+    width: 100px;
+}
