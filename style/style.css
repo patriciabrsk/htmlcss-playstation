@@ -19,12 +19,26 @@ header nav li img {
     width: 22px;
 }
 
-/* Jumbotron section*/
-section#jumbotron .jumbo {
+/* Jumbotron section */
+section.jumbotron .jumbo {
     background-color: blue;
     height: 450px;
 }
 
+/* Cards section */
 section.cards img {
+    width: 100%;
+}
+
+/* PS-5 section */
+.my-ps-blue {
+    color: #1876d2;
+}
+
+.my-ps-blue-bg {
+    background-color: #1876d2;
+}
+
+section.ps-5 .console-wrapper img {
     width: 100%;
 }
