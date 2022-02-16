@@ -40,7 +40,7 @@ section.cards img {
     border-radius: 30px;
 }
 
-/* PS-5 section */
+/* PS5 section */
 .my-ps-blue {
     color: #1876d2;
 }
@@ -49,11 +49,11 @@ section.cards img {
     background-color: #1876d2;
 }
 
-section.ps-5 .console-wrapper img {
+section.plays-5 .console-wrapper img {
     width: 100%;
 }
 
-section.ps-5 .ps-cards img {
+section.plays-5 .ps-5-cards img {
     width: 100%;
 }
 
@@ -81,7 +81,24 @@ section#nuove-uscite .card-item img {
     border-radius: 30px;
 }
 
-/* Ps4 cards secton */
+/* PS4 cards secton */
 section.ps-4-cards img {
     width: 100%;
+}
+
+/* PS Plus section */
+section.ps-plus {
+    height: 400px;
+    background-color: #bebcbb;
+}
+
+/* PS Store section */
+section.ps-store img {
+    width: 100%;
+}
+
+/* PS Plus section */
+section.ps-now {
+    height: 400px;
+    background-color: #161c3b;
 }
