@@ -138,3 +138,8 @@ section.ps-now .container-fluid {
 section.ps-now .now-content{
     height: 450px;
 }
+
+/* Social Media section */
+section#social img {
+    width: 100%;
+}
