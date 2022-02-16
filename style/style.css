@@ -94,10 +94,10 @@ section.ps-plus {
 }
 
 section.ps-plus .container-fluid {
-    /* background-image: url("../img/ps-plus-april-monthly-games-featured-image-block.png");
+    background-image: url("../img/ps-plus-april-monthly-games-featured-image-block.png");
     background-size: contain;
     background-repeat: no-repeat;
-    background-position-x: 95%; */
+    background-position-x: 95%;
 }
 
 section.ps-plus .plus-content img.games {
@@ -105,11 +105,9 @@ section.ps-plus .plus-content img.games {
 }
 
 /* Playstation bg image removed in sm screens and below */
-/* @media screen and (max-width: 576px) {
-    section.ps-plus .plus-content {
-        display: none;
-    }
-} */
+@media screen and (max-width: 576px) {
+    section.ps-plus .container-fluid { display: none; }
+}
 
 section.ps-plus .plus-content .plus-logo {
     width: 300px;
@@ -120,8 +118,23 @@ section.ps-store img {
     width: 100%;
 }
 
-/* PS Plus section */
+/* PS Now section */
 section.ps-now {
-    height: 460px;
     background-color: #161c3b;
+}
+
+section.ps-now .now-content .now-logo {
+    width: 300px;
+}
+
+section.ps-now .container-fluid {
+    background-image: url("../img/ps-now-april-featured-image-block.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-x: 95%;
+    height: 450px;
+}
+
+section.ps-now .now-content{
+    height: 450px;
 }
