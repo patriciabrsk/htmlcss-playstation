@@ -34,7 +34,7 @@ section.jumbotron .jumbo-content img {
     width: 200px;
 }
 
-/* Cards section */
+/* Jumbo cards section */
 section.cards img {
     width: 100%;
     border-radius: 30px;
@@ -79,4 +79,9 @@ section#nuove-uscite {
 section#nuove-uscite .card-item img {
     width: 100%;
     border-radius: 30px;
+}
+
+/* Ps4 cards secton */
+section.ps-4-cards img {
+    width: 100%;
 }
