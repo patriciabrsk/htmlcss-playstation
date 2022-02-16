@@ -26,7 +26,12 @@ section.jumbotron .jumbo {
 }
 
 section.jumbotron {
-    background-image: url("../img/returnal-listing-thumb-01-ps5.jpg")
+    background-image: url("../img/jumbo-bg.png");
+    background-size: cover;
+}
+
+section.jumbotron .jumbo-content img {
+    width: 200px;
 }
 
 /* Cards section */
@@ -50,6 +55,20 @@ section.ps-5 .console-wrapper img {
 
 section.ps-5 .ps-cards img {
     width: 100%;
+}
+
+/* Hero section */
+section.hero {
+    background-image: url("../img/it-takes-two-hero-banner-desktop.jpg");
+    background-size: cover;
+}
+
+section.hero .hero {
+    height: 600px;
+}
+
+section.hero .hero-content img {
+    width: 200px;
 }
 
 /* Nuove uscite section */
