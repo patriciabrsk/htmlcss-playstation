@@ -92,6 +92,10 @@ section.ps-plus {
     background-color: #bebcbb;
 }
 
+section.ps-plus .plus-content .plus-logo {
+    width: 300px;
+}
+
 /* PS Store section */
 section.ps-store img {
     width: 100%;
@@ -99,6 +103,6 @@ section.ps-store img {
 
 /* PS Plus section */
 section.ps-now {
-    height: 400px;
+    height: 460px;
     background-color: #161c3b;
 }
