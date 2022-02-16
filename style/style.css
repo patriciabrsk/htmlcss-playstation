@@ -149,3 +149,11 @@ footer {
     background-color: #00439b;
     height: 600px;
 }
+
+footer img.ps-logo {
+    width: 100px;
+}
+
+footer img.globe {
+    width: 20px;
+}
