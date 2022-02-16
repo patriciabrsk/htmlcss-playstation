@@ -90,17 +90,26 @@ section.ps-4-cards img {
 
 /* PS Plus section */
 section.ps-plus {
-    height: 400px;
     background-color: #bebcbb;
 }
 
-section.ps-plus .plus-content {
-    height: 400px;
-    background-image: url("../img/ps-plus-april-monthly-games-featured-image-block.png");
+section.ps-plus .container-fluid {
+    /* background-image: url("../img/ps-plus-april-monthly-games-featured-image-block.png");
     background-size: contain;
     background-repeat: no-repeat;
-    background-position-x: 95%;
+    background-position-x: 95%; */
 }
+
+section.ps-plus .plus-content img.games {
+    width: 100%;
+}
+
+/* Playstation bg image removed in sm screens and below */
+/* @media screen and (max-width: 576px) {
+    section.ps-plus .plus-content {
+        display: none;
+    }
+} */
 
 section.ps-plus .plus-content .plus-logo {
     width: 300px;
