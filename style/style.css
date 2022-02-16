@@ -143,3 +143,9 @@ section.ps-now .now-content{
 section#social img {
     width: 100%;
 }
+
+/* Footer */
+footer {
+    background-color: #00439b;
+    height: 600px;
+}
