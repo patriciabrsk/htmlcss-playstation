@@ -21,13 +21,18 @@ header nav li img {
 
 /* Jumbotron section */
 section.jumbotron .jumbo {
-    background-color: blue;
+    /* background-color: blue; */
     height: 600px;
+}
+
+section.jumbotron {
+    background-image: url("../img/returnal-listing-thumb-01-ps5.jpg")
 }
 
 /* Cards section */
 section.cards img {
     width: 100%;
+    border-radius: 30px;
 }
 
 /* PS-5 section */
