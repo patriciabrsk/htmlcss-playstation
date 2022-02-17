@@ -132,6 +132,13 @@ section.ps-now .container-fluid {
     background-position-x: 95%;
 }
 
+/* Playstation bg image removed in sm screens and below */
+@media screen and (max-width: 768px) {
+    section.ps-now .container-fluid  { 
+        background-image: none; 
+    }
+}
+
 /* Social Media section */
 section#social img {
     width: 100%;
