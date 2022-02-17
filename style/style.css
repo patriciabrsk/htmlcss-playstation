@@ -22,13 +22,20 @@ header nav li img {
     width: 22px;
 }
 
+header nav li a {
+    color: grey;
+}
+
+header nav .nav-item:hover {
+    color: #1876d2;
+}
+
 /* Jumbotron section */
 section.jumbotron {
     padding-top: 114.08px;
 }
 
 section.jumbotron .jumbo {
-    /* background-color: blue; */
     height: 600px;
 }
 
