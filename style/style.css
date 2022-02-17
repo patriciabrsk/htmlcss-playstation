@@ -46,6 +46,14 @@ section.jumbotron .jumbo-content img {
 section.cards img {
     width: 100%;
     border-radius: 30px;
+    position: relative;
+    top: 15%;
+    transition: top ease 0.5s;
+}
+
+section.cards img:hover {
+    top: 0;
+    outline: 2px solid #1876d2;
 }
 
 /* PS5 section */
@@ -88,6 +96,12 @@ section#nuove-uscite {
 section#nuove-uscite .card-item img {
     width: 100%;
     border-radius: 30px;
+    transition: transform .3s;
+}
+
+section#nuove-uscite .card-item img:hover {
+    cursor: pointer;
+    transform: scale(1.01);
 }
 
 /* PS4 cards secton */
@@ -121,6 +135,13 @@ section.ps-plus .plus-logo {
 /* PS Store section */
 section.ps-store img {
     width: 100%;
+    border-radius: 30px;
+    transition: transform .3s;
+}
+
+section.ps-store img:hover {
+    cursor: pointer;
+    transform: scale(1.01);
 }
 
 /* PS Now section */
@@ -167,4 +188,20 @@ footer img.globe {
 
 footer img.sony {
     width: 120px;
+}
+
+/* Hover effects on buttons */
+.btn-danger:hover{
+    outline-offset: 2px;
+    outline: 2px solid #bb2d3a;
+}
+
+.my-btn-blu:hover {
+    outline-offset: 2px;
+    outline: 2px solid #1876d2;
+}
+
+.my-btn-light:hover {
+    outline-offset: 2px;
+    outline: 2px solid #f9fafb;
 }
