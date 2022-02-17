@@ -32,7 +32,7 @@ section.jumbotron .container-fluid{
 }
 
 section.jumbotron .jumbo-content img {
-    width: 220px;
+    width: 100%;
 }
 
 /* Jumbo cards section */
@@ -105,9 +105,11 @@ section.ps-plus .plus-content img.games {
 }
 
 /* Playstation bg image removed in sm screens and below */
-/* @media screen and (max-width: 576px) {
-    section.ps-plus  { display: none; }
-} */
+@media screen and (max-width: 576px) {
+    section.ps-plus .container-fluid  { 
+        background-image: none; 
+    }
+}
 
 section.ps-plus .plus-content .plus-logo {
     width: 300px;
