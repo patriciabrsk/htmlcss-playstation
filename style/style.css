@@ -100,18 +100,14 @@ section.ps-plus .container-fluid {
     background-position-x: 95%;
 }
 
-section.ps-plus .plus-content img.games {
-    width: 100%;
-}
-
 /* Playstation bg image removed in sm screens and below */
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 768px) {
     section.ps-plus .container-fluid  { 
         background-image: none; 
     }
 }
 
-section.ps-plus .plus-content .plus-logo {
+section.ps-plus .plus-logo {
     width: 300px;
 }
 
@@ -134,11 +130,6 @@ section.ps-now .container-fluid {
     background-size: contain;
     background-repeat: no-repeat;
     background-position-x: 95%;
-    height: 450px;
-}
-
-section.ps-now .row {
-    height: 100%;
 }
 
 /* Social Media section */
