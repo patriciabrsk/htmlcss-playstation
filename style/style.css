@@ -1,5 +1,8 @@
 header {
     font-family: Helvetica, sans-serif;
+    position: fixed;
+    z-index: 2;
+    width: 100%;
 }
 
 main {
@@ -20,6 +23,10 @@ header nav li img {
 }
 
 /* Jumbotron section */
+section.jumbotron {
+    padding-top: 114.08px;
+}
+
 section.jumbotron .jumbo {
     /* background-color: blue; */
     height: 600px;
