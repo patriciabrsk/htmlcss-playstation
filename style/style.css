@@ -105,9 +105,9 @@ section.ps-plus .plus-content img.games {
 }
 
 /* Playstation bg image removed in sm screens and below */
-@media screen and (max-width: 576px) {
-    section.ps-plus .container-fluid { display: none; }
-}
+/* @media screen and (max-width: 576px) {
+    section.ps-plus  { display: none; }
+} */
 
 section.ps-plus .plus-content .plus-logo {
     width: 300px;
