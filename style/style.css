@@ -191,6 +191,10 @@ footer {
     font-size: 14px;
 }
 
+footer ul li {
+    line-height: 1.7rem;
+}
+
 footer img.ps-logo {
     width: 100px;
 }
