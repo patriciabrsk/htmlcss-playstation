@@ -176,7 +176,6 @@ section.ps-now .container-fluid {
 
 /* Social Media section */
 section#social img {
-    width: 100%;
     transition: border-radius ease 0.2s;
 }
 
